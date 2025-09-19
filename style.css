@@ -63,12 +63,16 @@ main{
 
 .content-image{
 
-    height: 70vh;
+    height: 80vh;
+    filter: drop-shadow(0px 200px 20px #0006);
 }
 
 footer{
 
-    height: 60px;
-    margin-right: 25px;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 75px;
 
 }
